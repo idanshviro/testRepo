@@ -31,6 +31,7 @@ public class BinarySearchTree {
             return root.addNode(newNode);
     }
 
+    //video: 99767 - Binary Search Tree
     public void search(String date){
         if (this.root == null)
             System.out.println("root is null");
@@ -38,6 +39,7 @@ public class BinarySearchTree {
             this.root.searchNode(parseDate(date));
     }
 
+    //doc: 99747
     public void remove(String removeNodeDate) {
         if (this.root == null)
             System.out.println("root is null");
