@@ -31,14 +31,22 @@ public class BinarySearchTree {
             return root.addNode(newNode);
     }
 
-    public void search(String date){
+        //video: 99767 - Binary Search Tree [Task123]
+    //video: 99767 - Binary Search Tree
+    //  video: 99767
+             //video: 99767
+        public void search(String date){
         if (this.root == null)
             System.out.println("root is null");
         else
             this.root.searchNode(parseDate(date));
     }
 
-    public void remove(String removeNodeDate) {
+//doc: 99747 - doc1 [bla]
+    //doc: 99747 - doc1
+    //doc: 99747
+//   doc : 99747
+public void remove(String removeNodeDate) {
         if (this.root == null)
             System.out.println("root is null");
         else {
