@@ -2,7 +2,22 @@ package com.company;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+//Valid Comments:
 
+#video: 99767 - Binary Search Tree
+--video: 99767 - Binary Search Tree
+/* video: 99767 - Binary Search Tree */
+<!--video: 99767 - Binary Search Tree-->
+
+#doc: 99767 - Binary Search Tree
+--doc: 99767 - Binary Search Tree
+/* doc: 99767 - Binary Search Tree */
+<!--doc: 99767 - Binary Search Tree-->
+    
+//Not a valid comments:
+//videoYysd
+//doc@#$##video
+//videodoc:
 public class BinarySearchTree {
 
     private BSTNode root;
